@@ -173,7 +173,7 @@ if(isset($_POST["id"])) {
 
                             <?php
                             foreach ($ligas as $row) {
-                                echo "<option value='".$row['referal_league_id']."'>".$row['name']."</option>";
+                                echo "<option value='".$row['referal_league_id']."'>ID: ".$row['referal_league_id']." -  ".$row['name']."</option>";
 
                             }
                     ?>
